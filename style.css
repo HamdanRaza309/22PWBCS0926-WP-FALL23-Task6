@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff0fa;
+}
+
+.container {
+    /* border: 2px solid rebeccapurple; */
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container input,
+button {
+    margin: 5px;
+    height: 30px;
+    width: 80%;
+    border: 2px solid purple;
+    border-radius: 5px;
+    color: #000;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.container .btn {
+    border: 1px solid purple;
+    border-radius: 15px;
+    width: 60%;
+    height: 44px;
+    color: #000;
+    font-size: 20px;
+    font-family: cursive;
+    background: #d586d2;
+}
+
+.container .btn:hover {
+    background: transparent;
+}
+
+.container .cards {
+    border: 2px solid #ffc3f2;
+    min-height: 400px;
+    min-width: 280px;
+    max-height: 400px;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 10px;
+    border-radius: 15px;
+    background: #ffe6fe;
+    margin: 4px;
+}
+
+.container #first #booksShelf li {
+    font-family: monospace;
+}
+
+.container #second {
+    align-items: center;
+}
+
+.container #third {
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(255, 80, 211);
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(221, 125, 213);
+    text-align: center;
+}
